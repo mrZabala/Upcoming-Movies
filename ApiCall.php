@@ -1,10 +1,10 @@
 <?php 
 
 const API_CURL = "https://whenisthenextmcufilm.com/api";
-$ch = curl_init(API_CURL); #Inicializar una nueva sesion de curl; = curlhandle
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); #Indicar que se recibio el resultado de la peticion sin mostrar nada en pantalla
-$result = curl_exec($ch); #Ejecutar la peticion y guardar resultados
-$data = json_decode($result, true); //Una alternativa seria usar file_get_contents directamente; $result = file_get_contents(API_URL);  si se quiere hacer GET de la API;
+$ch = curl_init(API_CURL); 
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); 
+$result = curl_exec($ch);
+$data = json_decode($result, true); 
 curl_close($ch);
 
 ?>
