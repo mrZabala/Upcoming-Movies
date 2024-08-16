@@ -1,4 +1,4 @@
-# Upcomig-Movies
+# Upcoming-Movies
 ![Screenshot](https://github.com/mrZabala/Upcoming-Movies/blob/main/image.png)
 
 # Upcoming Marvel Movies Web Application
