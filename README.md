@@ -35,4 +35,4 @@ This is a simple web application that fetches data from the Marvel Cinematic Uni
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/upcomingMovies.git
+   git clone https://github.com/mrZabala/upcomingMovies.git
